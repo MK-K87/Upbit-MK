@@ -1,0 +1,29 @@
+UPBIT V22 MOBILE 빠른 실행 가이드
+
+[가장 간단한 테스트: Colab]
+1. upbit_v22_mobile_colab_launcher.ipynb를 Google Colab에서 엽니다.
+2. 셀을 위에서부터 실행합니다.
+3. 업로드 창이 나오면 upbit_v22_mobile_app.zip을 올립니다.
+4. 표시되는 trycloudflare.com 주소를 휴대폰에서 엽니다.
+5. '오늘 V22 분석 실행'을 누릅니다.
+
+[상시 사용: Streamlit Community Cloud]
+1. upbit_v22_mobile_app.zip 압축을 풉니다.
+2. GitHub 새 저장소에 전체 파일을 업로드합니다.
+3. Streamlit Community Cloud에서 Create app을 누릅니다.
+4. Main file path를 app.py로 지정합니다.
+5. Deploy 후 생성된 고정 주소를 휴대폰에서 엽니다.
+6. 크롬/사파리 메뉴에서 홈 화면에 추가합니다.
+
+[모바일 화면]
+- 오늘: 최종 매수후보와 관찰후보 카드
+- 모듈 비교: V17, V20, 성공추적, V22 판단 비교
+- 백테스트: 모듈별 90일 성공률과 일별 추이
+- 누락방지: 기존 전략 후보 보존 검증
+- 다운로드: V22 Excel과 후보 CSV
+
+[중요]
+- V17 상위30, V20 상위50, 유동성 및 등급 기준은 잠금 상태입니다.
+- 기존 전략이 선택한 종목은 새 버전에서 자동 삭제되지 않습니다.
+- 현재 후보는 08:30 스냅샷 재구성 기준입니다.
+- 공개 시세 API만 사용해 업비트 API 키는 필요하지 않습니다.
